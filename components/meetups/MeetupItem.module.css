@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+}
+
+.image {
+  overflow: hidden;
+}
+
+.image img {
+  width: 35rem;
+  max-height: 20rem;
+  object-fit: contain;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content h3 {
+  margin: 0 0 0.6rem 0;
+  font-size: calc(1.17em + 1vmin);
+}
+
+.actions {
+  padding: 16px;
+}
